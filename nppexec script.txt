@@ -1,0 +1,5 @@
+cd "c:\users\XX\desktop\"
+sel_saveto a1.py
+cmd /c copy /b a.py+a1.py+b.py c.py
+cd "C:\Program Files\IBM\SPSS\Statistics\23\"
+statisticspython.bat "c:\users\XX\desktop\c.py"
